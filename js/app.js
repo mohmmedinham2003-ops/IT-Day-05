@@ -112,4 +112,13 @@
 // }while(i <= 10);
 
 //function
+function add(x,y){
+    return x + y;
+}
+
+let result = add(10,20);
+console.log(result);
+
+
+
 
