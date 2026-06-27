@@ -62,71 +62,105 @@
 //     console.log("false");
 // }
 
+// -------------------------------------------
+
+// if else statement
 
 // let x = 10;
 // let y = 20;
 
 // if (x > y) {
-//     console.log("X is greater than y");
+//     console.log("x is greater than y");
 // } else if (x < y) {
 //     console.log("x is less than y");
-
 // } else {
 //     console.log("x is equal to y");
-
 // }
 
-// let day = 2;
+// -------------------------------------------
+
+// switch statement
+
+// let day = 1;
+
 // switch (day) {
-//     case 1: console.log("Monday");
+//     case 1:
+//         console.log("Monday");
 //         break;
-//     case 2: console.log("Tuesday");
+//     case 2:
+//         console.log("Tuesday");
 //         break;
-//     case 3: console.log("Wed");
+//     case 3:
+//         console.log("Wednesday");
 //         break;
 //     default:
-//         console.log("invalid day");
-
+//         console.log("Invalid day");
 // }
 
-//for loop
+// -------------------------------------------
 
-// for (let i = 0; i < 10; i++) {
+// for loop
+
+// for (let i = 0; i <= 10; i++) {
 //     console.log(i);
-    
 // }
+
+// -------------------------------------------
 
 // while loop
+
 // let i = 0;
-// while (i < 10) {
+// while (i <= 10) {
 //     console.log(i);
 //     i++;
 // }
 
+// -------------------------------------------
+
+// do while loop
+
 // let i = 0;
-// do{
-// console.log(i);
-// i++;
+// do {
+//     console.log(i);
+//     i++;
+// } while (i <= 10);
 
 
-// }while(i <= 10);
+// -------------------------------------------
 
-//function
-// function add(x,y){
+// function
+
+// function add(x, y) {
 //     return x + y;
 // }
 
-// let result = add(10,20);
+// let result = add(10, 20);
 // console.log(result);
 
-// let numbers = [1,2,3,4];
-// for (let i = 0; i < numbers.length; i++) {
-//     console.log(numbers[i]);    
+
+// public static String add(int x, int y) {
+//     return x + y;
 // }
 
-let numbers = [1, true, 3, "Saman", "Ranil"];
-for (let i = 0; i < numbers.length; i++) {
-    console.log(numbers[i]);    
+// -------------------------------------------
+
+// array
+
+// let numbers = [1, true, 3, "saman", 5 , "ranil","sunil"];
+
+// for (let i = 0; i < numbers.length; i++) {
+//     console.log(numbers[i]);
+// }
+
+// -------------------------------------------
+
+// object
+
+let customer = {
+    name: "Saman",
+    age: 18,
+    isAfterAL: false,
+    salary: 7500.0
 }
 
-
+console.log(customer);
